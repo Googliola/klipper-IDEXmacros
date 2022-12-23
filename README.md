@@ -330,7 +330,8 @@ argument for `OFFSET` is provided the current offset is displayed.
 * `OFFSET` - New Z offset for the given surface.
 * `SURFACE` *(default: current surface)* - Bed surface.
 
-> **Note:** The `SET_GCODE_OFFSET` macro is overridden to update the
+> **Note:** The `SET_GCODE_OFFSET` macro is renamed to `SET_BED_OFFSET` to eliminate 
+> interference with other use-cases. It updates the
 > offset for the active surface. This makes the bed surface work with Z offset
 > adjustments made via any interface or client.
 
